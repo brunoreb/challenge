@@ -79,7 +79,7 @@
 
     function addMarker(pLat, pLong , pDistance) {
         var popup = new mapboxgl.Popup({ offset: 25 , closeOnClick: false, closeButton: false }).setHTML(
-            pDistance+ ' km parcourus<br>au 07/06/2020 à 19h'
+            pDistance+ ' km parcourus<br>au 07/06/2020 à 21h'
         );
 
         var el = document.createElement('div');
@@ -133,7 +133,7 @@
                     }
                 });
             counter = 0;
-            var distance = 4325.10;
+            var distance = 4244;
             var along = turf.along(geojson, distance , 'kilometers');
             addMarker(along.geometry.coordinates[0],along.geometry.coordinates[1],distance);
 
