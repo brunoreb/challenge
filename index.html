@@ -132,7 +132,7 @@
                     }
                 });
             counter = 0;
-            var distance = 3490+799;
+            var distance = 6000;//3490+799;
             var along = turf.along(geojson, distance , 'kilometers');
             addMarker(along.geometry.coordinates[0],along.geometry.coordinates[1],distance);
 
