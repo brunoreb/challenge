@@ -78,8 +78,8 @@
     var route;
 
     function addMarker(pLat, pLong , pDistance) {
-        var popup = new mapboxgl.Popup({ offset: 25 }).setText(
-            pDistance+ ' km parcourus au 07/06/2020 19h'
+        var popup = new mapboxgl.Popup({ offset: 25 }).setHTML(
+            pDistance+ ' km parcourus<br>au 07/06/2020 à 19h'
         );
 
         var el = document.createElement('div');
