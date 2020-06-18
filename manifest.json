@@ -4,7 +4,7 @@
   "theme_color": "#223965",
   "background_color": "#223965",
   "display": "standalone",
-  "scope": "/",
+  "scope": "/challenge/",
   "start_url": "/",
   "icons": [
     {
